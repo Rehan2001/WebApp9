@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapplication-deployment
+  labels:
+    app: my-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-webapp
+  template:
+    metadata:
+      labels:
+        app: my-webapp
+    spec:
+      containers:
+        - name: webapplication
+          image: docker.io/rehna2001/webapplication:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+          resources:
+            limits:
+              cpu: "0.5"  
+              memory: 512Mi  
+            requests:
+              cpu: "0.1"  
+              memory: 128Mi
