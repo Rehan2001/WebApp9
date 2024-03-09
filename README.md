@@ -7,11 +7,11 @@ Create a simple web application, deploy it onto a docker container and uploading
 mkdir <working_directory_name>
 2. Lets create a html.index , style.css and script.js file that defines a web-app.
 
-[html.index](https://github.com/Rehan2001/WebApp9/blob/main/src/html/index.html)
+    [html.index](https://github.com/Rehan2001/WebApp9/blob/main/src/html/index.html)
 
-[style.css](https://github.com/Rehan2001/WebApp9/blob/main/src/html/style.css)
+    [style.css](https://github.com/Rehan2001/WebApp9/blob/main/src/html/style.css)
 
-[script.js](https://github.com/Rehan2001/WebApp9/blob/main/src/html/script.js)
+    [script.js](https://github.com/Rehan2001/WebApp9/blob/main/src/html/script.js)
 
 3. Lets test the application, click the GoLive in VScode
 If you followed the above steps on your system, you will see the same output as test image in github repo:[: http://localhost](http://127.0.0.1:5500/src/html/index.html)
